@@ -31,7 +31,7 @@
 
         <div class="about-content">
             <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis erat odio, sit amet malesuada orci rutrum eget. Curabitur vitae semper tellus, vel sodales tellus. Phasellus fermentum, odio non euismod egestas, sem odio consequat magna, at elementum quam arcu vel diam. Praesent ullamcorper volutpat bibendum. Donec eleifend condimentum odio. Fusce tortor metus, congue at dignissim id, accumsan vel purus. Vestibulum euismod sapien id nunc volutpat mollis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis erat odio, sit amet malesuada orci rutrum eget. Curabitur vitae semper tellus, vel sodales tellus. Phasellus fermentum, odio non euismod egestas, sem odio consequat magna, at elementum quam arcu vel diam. Praesent ullamcorper volutpat bibendum. Donec eleifend condimentum odio.</p>
             <div class="header-about-logos">  
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
@@ -159,8 +159,17 @@
         </div>
 
     </div>
-    <img src="../assets/images/code-work.jpg">
-
+    <picture>
+        <source
+            srcset="../assets/images/code-work-cropped-2.jpg"
+            media="(max-width: 1300px)"
+        />
+        <img
+            id="footer-img"
+            alt=""
+            src="../assets/images/code-work.jpg"
+        />
+    </picture>
 
 </footer>
 </body>
